@@ -2,5 +2,5 @@ from dataclasses import dataclass
 import uuid
 @dataclass
 class User:
-    _id: uuid.UUID
+    id_: uuid.UUID
     email: str
